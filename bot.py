@@ -7,15 +7,15 @@ rules = [
     [
         r"hi|Hi|hey|Hey|hello|Hello",
         ["yo -- what's going on?", "well, hello there!",]
+    ],
+    [
+        r"what's your name ?",
+        ["call me bot ;) \n\n how bout you -- what's your name?"]
     ], 
     [
         r"my name is (.*)",
-        ["hi %1, what's up?"]
-    ], 
-    [
-        r"what's your name ?",
-        ["call me bot ;)"]
-    ], 
+        ["hi %1, what brings you here today?"]
+    ],
     [
         r"quit|Quit|QUIT|exit|Exit|bye|Bye|BYE",
         ["buh-bye"]
