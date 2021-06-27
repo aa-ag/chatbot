@@ -6,4 +6,5 @@ Small, fun project: building a chatbot.
 
 - `conda create -n chatbot`
 - `conda activate chatbot`
+- `conda install django`
 - `conda install nltk`
