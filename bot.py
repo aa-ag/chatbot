@@ -10,15 +10,23 @@ rules = [
     ],
     [
         r"what's your name ?",
-        ["call me bot ;) \n\n how bout you -- what's your name?"]
+        ["call me bot ;) \n\n how bout you: what's your name?"]
     ], 
     [
         r"my name is (.*)",
-        ["hi %1, what brings you here today?"]
+        [f"hi %1, what brings you here today?"]
+    ],
+    [
+        r"ai|AI|Artificial Intelligence",
+        [f"oh, i can't help with that -- that's scary"]
     ],
     [
         r"quit|Quit|QUIT|exit|Exit|bye|Bye|BYE",
         ["buh-bye"]
+    ],
+    [
+        r"(.*)",
+        ["hmmm... dunno how to process that; let's try again: how can I help you today?"]
     ],
 ]
 
