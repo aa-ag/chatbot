@@ -38,13 +38,10 @@ def home(request):
     return HttpResponse("Hello, world")
 
 
-
-############------------ FUNCTION(S) ------------############
-def chat_with_the_bot():
-    print("this is bot -- you built me, remember?")
+# def chat_with_the_bot():
+#     print("this is bot -- you built me, remember?")
 
 
-############------------ GLOBAL VARIABLES ------------############
-chat = Chat(rules, reflections)
-chat.converse()
-chat_with_the_bot()
+# chat = Chat(rules, reflections)
+# chat.converse()
+# chat_with_the_bot()
