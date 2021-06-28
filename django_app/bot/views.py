@@ -38,6 +38,12 @@ def home(request):
     return render(request, 'bot/index.html')
 
 
+def room(request, room_name):
+    return render(request, 'chat/room.html', {
+        'room_name': room_name
+    })
+
+
 # def chat_with_the_bot():
 #     print("this is bot -- you built me, remember?")
 
