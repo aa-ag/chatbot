@@ -1,5 +1,5 @@
 ############----------- IMPORTS -----------############
-from django.http import HttpResponse
+from django.shortcuts import render
 import nltk
 from nltk.chat.util import Chat, reflections
 
@@ -35,7 +35,7 @@ rules = [
 
 ############----------- VIEW(S) -----------############
 def home(request):
-    return HttpResponse("Hello, world")
+    return render(request, 'bot/index.html')
 
 
 # def chat_with_the_bot():
