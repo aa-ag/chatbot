@@ -9,3 +9,5 @@ Small, fun project: building a chatbot.
 - `conda install django`
 - `conda install channels`
 - `conda install nltk`
+- `docker run -p 6379:6379 -d redis:5`
+- `conda install channels_redis`
