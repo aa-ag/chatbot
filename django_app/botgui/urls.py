@@ -6,5 +6,5 @@ from django.urls import include, path
 ############----------- PATTERN(S) -----------############
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', include('bot.urls')),
+    path('bot/', include('bot.urls')),
 ]

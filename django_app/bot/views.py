@@ -34,7 +34,7 @@ rules = [
 
 
 ############----------- VIEW(S) -----------############
-def home(request):
+def index(request):
     return render(request, 'bot/index.html')
 
 

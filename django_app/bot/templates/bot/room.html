@@ -1,4 +1,4 @@
-<!-- chat/templates/chat/room.html -->
+<!-- bot/templates/bot/room.html -->
 <!DOCTYPE html>
 <html>
 <head>
@@ -16,7 +16,7 @@
         const chatSocket = new WebSocket(
             'ws://'
             + window.location.host
-            + '/ws/chat/'
+            + '/ws/bot/'
             + roomName
             + '/'
         );
