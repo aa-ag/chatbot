@@ -17,6 +17,10 @@ Small, fun project: building a chatbot.
 
 `python manage.py runserver`
 
+_tests_
+
+`python3 manage.py test chat.tests`
+
 #### test channel layer can communicate with Redis
 
 ```
