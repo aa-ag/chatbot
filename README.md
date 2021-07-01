@@ -12,14 +12,15 @@ Small, fun project: building a chatbot.
 - `docker run -p 6379:6379 -d redis:5`
 - `conda install channels_redis`
 - `pip install selenium`
+- [Chromedriver](https://sites.google.com/chromium.org/driver/)
 
 ### to run
 
-`python manage.py runserver`
+`python3 manage.py runserver`
 
 _tests_
 
-`python3 manage.py test chat.tests`
+`python3 manage.py test bot.tests`
 
 #### test channel layer can communicate with Redis
 
