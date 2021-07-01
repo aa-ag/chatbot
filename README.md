@@ -2,7 +2,7 @@
 
 Small, fun project: building a chatbot.
 
-### to run
+### dependencies
 
 - `conda create -n chatbot`
 - `conda activate chatbot`
@@ -11,6 +11,11 @@ Small, fun project: building a chatbot.
 - `conda install nltk`
 - `docker run -p 6379:6379 -d redis:5`
 - `conda install channels_redis`
+- `pip install selenium`
+
+### to run
+
+`python manage.py runserver`
 
 #### test channel layer can communicate with Redis
 
