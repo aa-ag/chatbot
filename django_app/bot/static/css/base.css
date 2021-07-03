@@ -3,7 +3,7 @@
 * {
     font-family: 'Bona Nova', serif;
     color: rgb(250, 250, 238);
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(53, 52, 52);
 }
 
 .wrapper {
@@ -11,6 +11,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 }
 
 #room-name-input {
@@ -45,6 +46,7 @@
 }
 
 #chat-message-input {
+    height: 2rem;
     background-color: rgba(255, 255, 255, 0.726);
     width: 80%;
     color: rgb(0, 0, 0);
