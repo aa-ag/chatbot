@@ -50,3 +50,27 @@
     color: rgb(0, 0, 0);
     border-radius: 5px;
 }
+
+#chat-message-input:focus {
+    outline: none;
+}
+
+#chat-message-submit {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: rgb(78, 211, 160);
+    border: none;
+    border-radius: 5px;
+}
+
+#back {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 1rem;
+    padding: 10px;
+    background-color: rgba(200, 108, 71, 0.808);
+    border: none;
+    border-radius: 5px;
+}
